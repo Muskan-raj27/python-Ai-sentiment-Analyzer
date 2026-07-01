@@ -6,7 +6,7 @@ AI Sentiment Analyzer is a Python-based application that uses Natural Language P
 
 ---
 
-## 👨‍💻 Internship Details
+## 👨‍💻 Intern Details
 
 - **Intern Name:** Muskan Raj
 - **Intern ID:** rajshrimuskan007@gmail.com
@@ -41,40 +41,6 @@ This project aims to:
 - Python 3
 - TextBlob
 - Natural Language Processing (NLP)
-
----
-
-## 📂 Project Structure
-
-```text
-AI-Sentiment-Analyzer/
-│── sentiment_analyzer.py
-│── requirements.txt
-│── README.md
-```
-
----
-
-## 🚀 Installation
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/Muskan-raj27/python-Ai-sentiment-Analyzer.git
-```
-
-### Install Required Library
-
-```bash
-pip install textblob
-```
-
-### Run the Project
-
-```bash
-python sentiment_analyzer.py
-```
-
 ---
 
 ## 💻 Example
