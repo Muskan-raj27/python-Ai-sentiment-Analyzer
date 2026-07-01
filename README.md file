@@ -1,6 +1,12 @@
 # AI Sentiment Analyzer
-The Ai Sentiment Analyzer is a python-based application that uses Natural Language Processing (NLP) to analyze the sentiment of user provided text. It determines whether the sentiment is positive, negative, or neutral by calculating the polarity score using thr Textblob library 
-## Intern Details
+
+## Project Overview
+
+AI Sentiment Analyzer is a Python-based application that uses Natural Language Processing (NLP) to determine the sentiment of a given text. The application analyzes user input and classifies it as **Positive**, **Negative**, or **Neutral** based on its sentiment polarity using the TextBlob library.
+
+---
+
+## Internship Details
 
 - **Intern Name:** Muskan Raj
 - **Intern ID:** rajshrimuskan007@gmail.com
@@ -11,21 +17,21 @@ The Ai Sentiment Analyzer is a python-based application that uses Natural Langua
 
 ## Project Scope
 
-This project is designed to:
-- Analyze user text sentiment.
-- Classify text as Positive, Negative, or Neutral.
+The objective of this project is to:
+- Perform sentiment analysis on text.
+- Classify text into Positive, Negative, or Neutral categories.
 - Demonstrate the basics of Natural Language Processing (NLP).
-- Serve as a beginner-friendly AI and Python project.
-- Help understand sentiment analysis techniques used in real-world applications.
+- Provide a simple AI-based Python application for beginners.
+- Serve as an educational and internship project.
 
 ---
 
 ## Features
 
-- Analyze text sentiment instantly.
-- Displays sentiment polarity score.
-- Classifies text into Positive, Negative, or Neutral.
-- Simple and easy-to-use command-line interface.
+- Analyze user-entered text.
+- Calculate sentiment polarity score.
+- Identify Positive, Negative, or Neutral sentiment.
+- Easy-to-use command-line interface.
 - Lightweight and beginner-friendly project.
 
 ---
@@ -36,22 +42,40 @@ This project is designed to:
 - TextBlob
 - Natural Language Processing (NLP)
 
+---
+
+## Project Structure
+
+```text
+AI-Sentiment-Analyzer/
+│── sentiment_analyzer.py
+│── requirements.txt
+│── README.md
+```
+
+---
 
 ## Installation
 
-1. Clone the repository:
+### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/AI-Sentiment-Analyzer.git
 ```
 
-2. Install the required library:
+### Step 2: Navigate to the Project Folder
+
+```bash
+cd AI-Sentiment-Analyzer
+```
+
+### Step 3: Install Dependencies
 
 ```bash
 pip install textblob
 ```
 
-3. Run the project:
+### Step 4: Run the Project
 
 ```bash
 python sentiment_analyzer.py
@@ -64,34 +88,11 @@ python sentiment_analyzer.py
 ### Input
 
 ```text
-I love learning Python.
+I love learning Python programming.
 ```
 
 ### Output
 
 ```text
 Polarity Score: 0.5
-Sentiment: Positive 😊
-```
-
----
-
-## Future Enhancements
-
-- Build a GUI using Tkinter.
-- Support multiple languages.
-- Analyze text from CSV files.
-- Develop a web application using Flask.
-- Add graphical visualization of sentiment results.
-
----
-
-## Author
-
-**Muskan Raj**
-
----
-
-## License
-
-This project is developed for educational and internship purposes.
+Sentiment
