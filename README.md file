@@ -1,11 +1,5 @@
 # AI Sentiment Analyzer
 
-## Project Overview
-
-The AI Sentiment Analyzer is a Python-based application that uses Natural Language Processing (NLP) to analyze the sentiment of user-provided text. It determines whether the sentiment is Positive, Negative, or Neutral by calculating the polarity score using the TextBlob library.
-
----
-
 ## Internship Details
 
 - **Intern Name:** Muskan Raj
@@ -42,7 +36,29 @@ This project is designed to:
 - TextBlob
 - Natural Language Processing (NLP)
 
---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/AI-Sentiment-Analyzer.git
+```
+
+2. Install the required library:
+
+```bash
+pip install textblob
+```
+
+3. Run the project:
+
+```bash
+python sentiment_analyzer.py
+```
+
+---
+
 ## Example
 
 ### Input
