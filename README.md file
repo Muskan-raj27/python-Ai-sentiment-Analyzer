@@ -1,6 +1,6 @@
 # AI Sentiment Analyzer
-
-## Internship Details
+The Ai Sentiment Analyzer is a python-based application that uses Natural Language Processing (NLP) to analyze the sentiment of user provided text. It determines whether the sentiment is positive, negative, or neutral by calculating the polarity score using thr Textblob library 
+## Intern Details
 
 - **Intern Name:** Muskan Raj
 - **Intern ID:** rajshrimuskan007@gmail.com
